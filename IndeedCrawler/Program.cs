@@ -22,8 +22,8 @@ namespace IndeedCrawler
                     "DBA"
                 };
                 string domainPreHttp = "https://www.indeed.com/resumes/rpc/preview?keys=";
-                string city = "Calgary";
-                string province = "AB";
+                string city = "Toronto";
+                string province = "ON";
 
                 loadPageByBrowser(searchDeveloper, domainPreHttp, city, province);
             }
@@ -36,35 +36,50 @@ namespace IndeedCrawler
         private static void loadPageByBrowser(List<string> searchDeveloper, string domainPreHttp, string city, string province)
         {
             string clientToken;
-            CookieCollection cc = LoginWithBrowser.getCookies("https://secure.indeed.com/account/login"
-                , "futong101@gmail.com"
-                , "Tt10011996");
-            clientToken = cc["CTK"].Value;
-            System.Threading.Thread.Sleep(2000);
+            //CookieCollection cc = LoginWithBrowser.getCookies("https://secure.indeed.com/account/login"
+            //    , "13121348518@163.com"
+            //    , "Tt10011996");
+            //clientToken = cc["CTK"].Value;
+            //System.Threading.Thread.Sleep(2000);
 
             foreach (string kd in searchDeveloper)
-            {
+            { 
                 string keyword = kd.Replace(" ", "+");
                 int pageCount = 0;
                 while (true)
                 {
-                    RedirectWithCookies rwc = new Redirect.RedirectWithCookies(cc); 
-                    //HtmlDocument htmlDoc = rwc.getPageWithCookie("https://www.indeed.com/resumes?q=" + keyword + "&l=" + city + "%2C+" + province + "&start=" + pageCount.ToString());
-                    
-                    //HtmlDocument： get HTML document from HTTP
-                    HtmlDocument htmlDoc = rwc.getPageWithCookieAsync("https://resumes.indeed.com/search?q=" + keyword + "&l=" + city + "%2C+" + province + "&start=" + pageCount.ToString());
+
+                    CookieCollection cc = LoginWithBrowser.getCookiesInResumePage(
+                        "https://secure.indeed.com/account/login"
+                        , "ttmm.li@hotmail.com"
+                        , "Tt10011996"
+                        , "https://resumes.indeed.com"
+                        , kd
+                        , city + " " + province);
+
+
+                    clientToken = cc["CTK"].Value;
+                    RedirectWithCookies rwc = new Redirect.RedirectWithCookies(cc);
+
+                    //string Url = "https://resumes.indeed.com/rpc/search?hasScore=1&l=" + city + "&q=" + keyword + "&searchFields=jt";
+
+                    //HtmlDocument htmlDoc = rwc.getPageWithCookieAsync("https://resumes.indeed.com/search?q=" + keyword + "&l=" + city + "%2C+" + province + "&start=" + pageCount.ToString());
+
+                    string Url = "https://resumes.indeed.com/search?q="+kd+"&l="+city+"+"+province+"&searchFields=jt";
+                    HtmlDocument htmlDoc = rwc.getPageWithCookieAsync(Url);
                     if (htmlDoc == null)
                         break;
-                    //string xpath = "//ol[@id='results']/li";
-                    string xpath = "//*[@class='rezemp-ResumeSearchCard-contents']/div/span[1]";
-                    
+                    string xpath = "//*[@id='content']/div/div[2]/div/div[2]/div[1]/div[3]/div[1]/div[1]/div[1]/div";
                     string clientIds = HttpContext.ExtractClientIds.getClientIds(htmlDoc, xpath);
                     if (clientIds == null)
                         break;
-                    
                     string sendUrl = domainPreHttp + clientIds + "&q=" + keyword + "&tk=" + clientToken;
+
+
+                    //string sendUrl = "https://resumes.indeed.com/rpc/search?hasScore=1&l=toronto&q=dba&searchFields=jt";
+
                     var result = JsonContent.downloadJson(sendUrl, cc);
-                    string filename = @"E:\IndeedFile\" + city + "_" + province + "_" + keyword + "_" + pageCount.ToString() + ".json";
+                    string filename = @"D:\IndeedFile\" + city + "_" + province + "_" + keyword + "_" + pageCount.ToString() + ".json";
                     JsonContent.saveJson(filename, result);
                     pageCount = pageCount + 50;
                     System.Threading.Thread.Sleep(2000);

@@ -14,10 +14,7 @@ namespace IndeedCrawler.HttpContext
             List<string> hrefTags = new List<string>();
             try
             {
-                //get clinet id by xpath
-                //string futongpath = "//*[@id=\"content\"]/div/div[2]/div/div[2]/div[2]/div[2]/div/div[1]/span[1]";
-                HtmlNodeCollection nodesCol = htmlSnippet.DocumentNode.SelectNodes("//*[@class='rezemp-ResumeSearchCard-contents']/div/span[1]"); 
-
+                HtmlNodeCollection nodesCol = htmlSnippet.DocumentNode.SelectNodes(xpath);
                 if (nodesCol == null)
                     return null;
                 else

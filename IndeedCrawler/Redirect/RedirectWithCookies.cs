@@ -20,6 +20,11 @@ namespace IndeedCrawler.Redirect
             container.Add(cc);
             cookiePot = container;
         }
+
+        public void AddMoreCookies(CookieCollection cc)
+        {
+            cookiePot.Add(cc);
+        }
         public HtmlDocument getPageWithCookieAsync(string redirectUrl)
         {
             try
@@ -39,17 +44,10 @@ namespace IndeedCrawler.Redirect
                 //    return web;
                 //}
 
-                //find API 
-                //call API with parameters
                 HtmlWeb web = new HtmlWeb();
-                web.UseCookies = true;  //Gets or Sets a value indicating if cookies will be stored
-                web.PreRequest = new HtmlWeb.PreRequestHandler(OnPreRequest);  // Occurs before an HTTP request is executed.
-
-                //sync call
-
-                //sleep  login --> resumes.indeed.com   3-5s
-
-                HtmlDocument htmlDoc = web.Load(redirectUrl);  //return a new html document
+                web.UseCookies = true;
+                web.PreRequest = new HtmlWeb.PreRequestHandler(OnPreRequest);
+                HtmlDocument htmlDoc = web.Load(redirectUrl);
                 if (web.StatusCode == HttpStatusCode.NotFound)
                 {
                     return null;
