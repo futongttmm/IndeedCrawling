@@ -1,0 +1,73 @@
+Starting ChromeDriver 75.0.3770.8 (681f24ea911fe754973dda2fdc6d2a2e159dd300-refs/branch-heads/3770@{#40}) on port 57653
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+
+DevTools listening on ws://127.0.0.1:57656/devtools/browser/b1e75b47-9144-45b4-a4c5-b33caec193df
+<!DOCTYPE html><html dir="ltr" class="rezemp-ResumeViewLayout-html"><head>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WNSB8XG');</script>
+<!-- End Google Tag Manager -->
+<script src="https://cdn.optimizely.com/js/6377170661.js"></script><link rel="shortcut icon" type="image/png" href="/static/images/favicon-121a06.ico"><script src="https://www.google.com/recaptcha/api.js?render=6Lf7EYoUAAAAAFAbKUrUD_Mku3P2rKzpOMttvGX0&hl=en"></script>
+            <script>
+                window.createRecaptchaPromise = function (pageAction) {
+                    pageAction = pageAction || "default";
+                    return new Promise(function(resolve, reject) {
+                        window.grecaptcha.ready(function() {
+                            try {
+                                window.grecaptcha.execute('6Lf7EYoUAAAAAFAbKUrUD_Mku3P2rKzpOMttvGX0', {action: pageAction}).then(function(recaptchaResponseToken) {
+                                    resolve(recaptchaResponseToken);
+                                });
+                            }
+                            catch (e) {
+                                reject(e);
+                            }
+                        });
+                    });
+                };
+
+                window.createRecaptchaChallengePromise = function (domElementId) {
+                    return new Promise(function(resolve, reject) {
+                        window.grecaptcha.ready(function() {
+                            try {
+                                window.grecaptcha.render(domElementId, {
+                                    sitekey: '6Lcl8ZQUAAAAAKMym8QF3e5hutHOTBzb4ekL-tJA',
+                                    callback: function gerecaptchaCallback(challengeResponseToken) { resolve(challengeResponseToken); }
+                                });
+                            }
+                            catch (e) {
+                                reject(e);
+                            }
+                        });
+                    });
+                };
+            </script>
+            <title>DBA Candidates in Toronto | Indeed.com</title><meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no"><link rel="stylesheet" type="text/css" href="/static/48fc9df745dbf7ac11f7/styles/resume-search-app.css"></head><body class="rezemp-ResumeViewLayout-body">
+<!-- Google Tag Manager (noscript) -->
+ <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WNSB8XG"
+ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+ <!-- End Google Tag Manager (noscript) -->
+<div id="content"><noscript>This page requires JavaScript.</noscript></div><script type="text/javascript">var _sift = window._sift = window._sift || []; _sift.push(['_setAccount', 'fb21e9c129']); _sift.push(['_setUserId', '997a88f37e3fd496']); _sift.push(['_setSessionId', '1ddv2jhba5ngp800']); _sift.push(['_trackPageview']);
+         (function() {
+           function ls() {
+             var e = document.createElement('script');
+             e.src = 'https://cdn.siftscience.com/s.js';
+             document.body.appendChild(e);
+           }
+           if (window.attachEvent) {
+             window.attachEvent('onload', ls);
+           } else {
+             window.addEventListener('load', ls, false);
+           }
+         })();
+     </script><script>window.initialState = JSON.parse('{\x22commonModel\x22:{\x22advertiser\x22:\x22\x22,\x22baseAdsUrl\x22:\x22https:\\u002F\\u002Fads.indeed.com\x22,\x22baseAnalyticsUrl\x22:\x22https:\\u002F\\u002Fanalytics.indeed.com\x22,\x22baseBillingUrl\x22:\x22https:\\u002F\\u002Fbilling.indeed.com\x22,\x22baseIndeedEmployerHelpUrl\x22:\x22https:\\u002F\\u002Findeedemployers.zendesk.com\x22,\x22baseIndeedUrl\x22:\x22https:\\u002F\\u002Fwww.indeed.com\x22,\x22baseMyIndeedUrl\x22:\x22https:\\u002F\\u002Fmy.indeed.com\x22,\x22basePieUrl\x22:\x22https:\\u002F\\u002Faccount.indeed.com\x22,\x22baseRozUrl\x22:\x22https:\\u002F\\u002Fresumes.indeed.com\x22,\x22baseSecureUrl\x22:\x22https:\\u002F\\u002Fsecure.indeed.com\x22,\x22billingIssue\x22:\x22NO_BILLING\x22,\x22canSwitchAccount\x22:false,\x22confirmed\x22:true,\x22country\x22:\x22US\x22,\x22csrfParam\x22:\x22indeedcsrftoken\x22,\x22csrfToken\x22:\x22iXpcT7xcE0eERlZIk7dfRCZInjuoqe3J\x22,\x22currentRelativeUrl\x22:\x22\\u002Fsearch?hasScore\x3d1\x26l\x3dToronto\x26q\x3dDBA\x26searchFields\x3djt\x22,\x22currentUrl\x22:\x22https:\\u002F\\u002Fresumes.indeed.com\\u002Fsearch?hasScore\x3d1\x26l\x3dToronto\x26q\x3dDBA\x26searchFields\x3djt\x22,\x22currentUserAccountKey\x22:\x222828cded6ac9c1b0\x22,\x22emailAddress\x22:\x22ttmm.li@hotmail.com\x22,\x22featuredEmployer\x22:false,\x22isMasquerade\x22:false,\x22language\x22:\x22en\x22,\x22locale\x22:\x22en_US\x22,\x22loggedIn\x22:true,\x22masquerade\x22:false,\x22moderated\x22:false,\x22nonMonetizedMarket\x22:false,\x22privileged\x22:false,\x22showLaunchBanner\x22:false,\x22showSecondaryNav\x22:false,\x22subscriptionInfo\x22:{\x22admin\x22:false,\x22bulkContact\x22:false,\x22contactsRemaining\x22:0,\x22hasUnassignedSubscription\x22:false,\x22hasUnlimitedContacts\x22:false,\x22subscriptionAssigned\x22:false,\x22trial\x22:false},\x22subscriptionsEnabled\x22:true},\x22tk\x22:\x221ddv2ssmf3pt9800\x22}');</script><script>window.proctorGroups = JSON.parse('[[0,null],[0,null],[1,null],[6,null],[5,null],[3,null],[0,null],[12,null],[-1,null],[-1,null],[-1,null],[-1,null],[-1,null],[-1,null],[-1,null],[-1,null],[-1,null],[-1,null],[0,null],[1,null],[-1,null],[1,null],[0,\x22${contactName} sent you a message about your resume on Indeed.\x22],[1,null],[1,null],[-1,null],[-1,null],[0,null],[-1,null],[1,null],[-1,null],[1,null],[1,null],[1,null],[-1,null],[-1,null],[-1,null],[1,null],[1,null],[0,null],[1,null],[-1,null],[-1,null],[1,{\x22recaptchaThreshold\x22:0.49}],[2,null],[-1,null],[1,null],[1,null],[1,null],[-1,null],[1,null],[-1,null],[-1,null],[1,null],[-1,null],[-1,null],[-1,null],[-1,null],[-1,null],[-1,null],[1,{\x22accountBlocks\x22:[371495985,371492945,371496796,371495142,371255403,180896675,402708456],\x22ipBlocks\x22:[\x22142.93.160.149\x22,\x22156.213.187.109\x22,\x2254.144.251.118\x22,\x2254.160.231.37\x22,\x2254.161.232.223\x22,\x2254.163.111.234\x22,\x2254.166.201.27\x22,\x2254.167.132.121\x22,\x2254.211.243.158\x22,\x2254.221.65.205\x22,\x2254.234.36.11\x22,\x2254.235.23.71\x22,\x2254.242.123.36\x22,\x2254.242.125.90\x22,\x2254.242.94.44\x22,\x2254.91.29.30\x22,\x2254.81.91.102\x22,\x2218.130.133.224\x22,\x2218.130.98.215\x22,\x223.8.18.212\x22,\x223.8.20.40\x22,\x2234.206.53.38\x22,\x2282.12.238.32\x22,\x22137.135.96.20\x22,\x2213.90.195.83\x22,\x22137.135.96.20\x22,\x22106.51.66.119\x22,\x22116.75.87.250\x22,\x2213.90.195.83\x22,\x22104.131.19.173\x22,\x22106.51.66.119\x22,\x22108.2.166.209\x22,\x2212.133.183.51\x22,\x22163.198.35.32\x22,\x22168.62.165.43\x22,\x2218.203.123.118\x22,\x2223.96.14.105\x22,\x2252.60.89.234\x22,\x2271.14.194.130\x22,\x2273.2.223.45\x22]}],[1,null],[-1,null],[-1,null],[-1,null],[-1,null],[-1,null],[1,null],[1,null],[1,null],[1,null],[1,null],[2,null],[-1,null],[1,null],[-1,null],[3,null]]');</script><script>window.staticResourceMap = JSON.parse('{\x22\\u002Fstatic\\u002Fimages\\u002Fquestion.png\x22:\x22\\u002Fstatic\\u002Fimages\\u002Fquestion-0e2e4c.png\x22,\x22\\u002Fstatic\\u002Fimages\\u002Findeed_resume_header\\u002Flogo-cv.svg\x22:\x22\\u002Fstatic\\u002Fimages\\u002Flogo-cv-7d9637.svg\x22,\x22\\u002Fstatic\\u002Fimages\\u002Findeed_resume_header\\u002Fcv-no-R.png\x22:\x22\\u002Fstatic\\u002Fimages\\u002Fcv-no-R-ff14a9.png\x22,\x22\\u002Fstatic\\u002Fimages\\u002Findeed_resume_header\\u002Flogo-hv-white.svg\x22:\x22\\u002Fstatic\\u002Fimages\\u002Flogo-hv-white-b4f897.svg\x22,\x22\\u002Fstatic\\u002Fimages\\u002Ferror.svg\x22:\x22\\u002Fstatic\\u002Fimages\\u002Ferror-bb4739.svg\x22,\x22\\u002Fstatic\\u002Fimages\\u002Fpreview_pointer.png\x22:\x22\\u002Fstatic\\u002Fimages\\u002Fpreview_pointer-95ac8f.png\x22,\x22\\u002Fstatic\\u002Fimages\\u002Findeed_resume_header\\u002Fes_CO.png\x22:\x22\\u002Fstatic\\u002Fimages\\u002Fes_CO-9425fe.png\x22,\x22\\u002Fstatic\\u002Fimages\\u002Fmail.png\x22:\x22\\u002Fstatic\\u002Fimages\\u002Fmail-94ac01.png\x22,\x22\\u002Fstatic\\u002Fimages\\u002Findeed_resume_header\\u002Flogo-curriculo.svg\x22:\x22\\u002Fstatic\\u002Fimages\\u002Flogo-curriculo-8ab33e.svg\x22,\x22\\u002Fstatic\\u002Fimages\\u002Findeed_resume_header\\u002Fes_CO-no-R.png\x22:\x22\\u002Fstatic\\u002Fimages\\u002Fes_CO-no-R-ab32d9.png\x22,\x22\\u002Fstatic\\u002Fimages\\u002Frobot-face.png\x22:\x22\\u002Fstatic\\u002Fimages\\u002Frobot-face-82562c.png\x22,\x22\\u002Fstatic\\u002Fimages\\u002Findeed_resume_header\\u002Fpt.png\x22:\x22\\u002Fstatic\\u002Fimages\\u002Fpt-933316.png\x22,\x22\\u002Fstatic\\u002Fimages\\u002Findeed_resume_header\\u002Flogo-resume.svg\x22:\x22\\u002Fstatic\\u002Fimages\\u002Flogo-resume-ae8227.svg\x22,\x22\\u002Fstatic\\u002Fimages\\u002Finfo.png\x22:\x22\\u002Fstatic\\u002Fimages\\u002Finfo-cb7e82.png\x22,\x22\\u002Fstatic\\u002Fimages\\u002Findeed_resume_header\\u002Flogo-resume-white.svg\x22:\x22\\u002Fstatic\\u002Fimages\\u002Flogo-resume-white-e3f7e7.svg\x22,\x22\\u002Fstatic\\u002Fimages\\u002Findeed_resume_header\\u002Flogo-cv-white.svg\x22:\x22\\u002Fstatic\\u002Fimages\\u002Flogo-cv-white-debf52.svg\x22,\x22\\u002Fstatic\\u002Fimages\\u002Fbulk-info-arrow.png\x22:\x22\\u002Fstatic\\u002Fimages\\u002Fbulk-info-arrow-74aacd.png\x22,\x22\\u002Fstatic\\u002Fimages\\u002Fpreview_bg.png\x22:\x22\\u002Fstatic\\u002Fimages\\u002Fpreview_bg-04b94b.png\x22,\x22\\u002Fstatic\\u002Fimages\\u002Findeed_resume_header\\u002Fes.png\x22:\x22\\u002Fstatic\\u002Fimages\\u002Fes-30cb92.png\x22,\x22\\u002Fstatic\\u002Fimages\\u002Findeed_resume_header\\u002Fen.png\x22:\x22\\u002Fstatic\\u002Fimages\\u002Fen-9e6459.png\x22,\x22\\u002Fstatic\\u002Fimages\\u002Findeed_resume_header\\u002Flogo-hv.svg\x22:\x22\\u002Fstatic\\u002Fimages\\u002Flogo-hv-1908be.svg\x22,\x22\\u002Fstatic\\u002Fimages\\u002Findeed_resume_header\\u002Fen-no-R.png\x22:\x22\\u002Fstatic\\u002Fimages\\u002Fen-no-R-7726f0.png\x22,\x22\\u002Fstatic\\u002Fimages\\u002Findeed_resume_header\\u002Fen_GB.png\x22:\x22\\u002Fstatic\\u002Fimages\\u002Fen_GB-4940cb.png\x22,\x22\\u002Fstatic\\u002Fimages\\u002Findeed_resume_header\\u002Fcv.png\x22:\x22\\u002Fstatic\\u002Fimages\\u002Fcv-4940cb.png\x22,\x22\\u002Fstatic\\u002Fimages\\u002Ffavicon.ico\x22:\x22\\u002Fstatic\\u002Fimages\\u002Ffavicon-121a06.ico\x22,\x22\\u002Fstatic\\u002Fimages\\u002Findeed_resume_header\\u002Flogo-curriculo-white.svg\x22:\x22\\u002Fstatic\\u002Fimages\\u002Flogo-curriculo-white-9e5686.svg\x22}');</script><script type="text/javascript" src="/static/470efc270c8266a1ca88/scripts/vendor.js"></script><script type="text/javascript" src="/static/2b5c0a2/en_US.js"></script><script>!function(n){function r(n){for(var r=a,t=n.length;t;)r=33*r^n.charCodeAt(--t);return r>>>0}var t=this['indeed.i18n.localeData'],e=t['']||{},a=e.salt;if(e.hasOwnProperty('salt'))for(var i in n)t[function(n){var t=r(n);return e.hasOwnProperty('id_length')&&(t=String(t).substring(0,e.id_length)),t}(i)]=n[i];else for(var i in n)t[i]=[null].concat(n[i])}({"Email {0} job seeker":["Contact {0} job seeker","Contact {0} job seekers"],"Email":["Contact"],"Email {0}":["Contact {0}"],"Send Email":["Send Message"]});</script><script type="text/javascript" src="/static/fe5c284e9f6f62c10d55/scripts/resume-search-app.js"></script>
+ <script>
+   window.intercomSettings = {
+     app_id: "edw0pjx4"
+   };
+ </script>
+ <script>(function(){var w=window;var ic=w.Intercom;if(typeof ic==="function"){ic('reattach_activator');ic('update',w.intercomSettings);}else{var d=document;var i=function(){i.c(arguments);};i.q=[];i.c=function(args){i.q.push(args);};w.Intercom=i;var l=function(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/edw0pjx4';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);};if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})();</script>
+</body></html>

@@ -1,0 +1,20 @@
+1. Saving json data acccording to following keywords
+Developer
+DBA
+System Analyst
+System Architect
+Programmer
+Technical Specialist
+Business Analyst
+
+2. use xpath to get all 50 session id
+
+2. Load page according to start + 50
+https://www.indeed.com/resumes?q=Developer&l=Edmonton%2C+AB&co=CA&start=50
+https://www.indeed.com/resumes?q=Developer&l=Edmonton%2C+AB&co=CA&start=100
+
+3. add keyword if session id is same
+use session id to skip someone that has been found by different keywords
+
+4. use database to save individual json data
+
